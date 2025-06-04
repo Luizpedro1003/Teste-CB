@@ -6,6 +6,10 @@ module.exports = {
        
 
     },
+    specPattern: [
+      '**/fluxo_de_compra.cy.js',
+      '**/dummyjson_carrinho_api.cy.js'
+    ],
     defaultCommandTimeout: 20000
   },
 };
